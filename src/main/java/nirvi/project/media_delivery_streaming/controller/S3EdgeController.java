@@ -11,7 +11,7 @@ import org.springframework.web.multipart.MultipartFile;
 import java.io.IOException;
 
 @RestController
-@RequestMapping("/api/files")
+@RequestMapping("/s3")
 public class S3EdgeController {
 
     private final S3EdgeService s3EdgeService;

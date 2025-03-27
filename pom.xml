@@ -78,6 +78,13 @@
 			<artifactId>aws-java-sdk</artifactId>
 			<version>1.12.732</version>
 		</dependency>
+
+		<dependency>
+			<groupId>software.amazon.awssdk</groupId>
+			<artifactId>s3</artifactId>
+			<version>2.20.143</version>
+		</dependency>
+
 		<dependency>
 			<groupId>javax.servlet</groupId>
 			<artifactId>javax.servlet-api</artifactId>
@@ -91,9 +98,9 @@
 			<version>4.2</version>
 		</dependency>
 		<dependency>
-			<groupId>net.sf.ehcache</groupId>
+			<groupId>org.ehcache</groupId>
 			<artifactId>ehcache</artifactId>
-			<version>2.10.9.2</version>
+			<version>3.10.8</version>
 		</dependency>
 
 
